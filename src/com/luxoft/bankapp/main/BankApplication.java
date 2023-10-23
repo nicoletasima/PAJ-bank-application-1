@@ -102,6 +102,7 @@ public class BankApplication {
 
 		if (name.equals("display statistic")) {
 			displayStatistics();
+			displayStatisticsStreams();
 		}
 	}
 

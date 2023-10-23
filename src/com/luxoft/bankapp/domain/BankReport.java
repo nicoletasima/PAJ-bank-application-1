@@ -59,7 +59,8 @@ public class BankReport {
         }
 
         Collections.sort(accounts);
-        return (SortedSet) accounts;
+        SortedSet<AbstractAccount> sortedAccounts = new TreeSet<>(accounts);
+        return sortedAccounts;
     }
 
 
