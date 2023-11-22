@@ -33,7 +33,7 @@ public class BankApplication {
 
 	}
 	
-	private static void modifyBank() {
+	public static void modifyBank() {
 		Client client1 = new Client("John", Gender.MALE);
 		client1.setCity("Bucharest");
 		Client client2 = new Client("Sergiu", Gender.MALE);

@@ -12,4 +12,6 @@ public class Email {
         this.from = from;
         this.to = to;
     }
+
+
 }
